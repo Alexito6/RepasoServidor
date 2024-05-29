@@ -9,7 +9,7 @@ public class DataSource {
     @Bean
     public static MysqlDataSource getMyDataSource(){
         MysqlDataSource mysql=new MysqlDataSource();
-        mysql.setURL("jdbc:mysql://localhost:3307/java");
+        mysql.setURL("jdbc:mysql://localhost:3307/pruebas1");
         mysql.setUser("root");
         mysql.setPassword("1234");
         return mysql;

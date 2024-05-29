@@ -2,6 +2,7 @@ package pruebasExamen.repository.model;
 
 import lombok.*;
 
+import java.io.Serializable;
 import java.util.Date;
 
 @Getter
@@ -10,7 +11,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Builder
 @ToString
-public class Alumno {
+public class Alumno implements Serializable {
     private int alumno_id;
     private String nombre;
     private String apellido;
