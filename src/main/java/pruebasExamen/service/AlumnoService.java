@@ -15,4 +15,7 @@ public class AlumnoService {
     public List<Alumno> getAlumnos() throws SQLException{
         return alumnoRepository.getAlumnos();
     }
+    public Alumno getAlumno(int alumno_id) throws SQLException {
+        return  alumnoRepository.getAlumno(alumno_id);
+    }
 }
